@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/userSeed.js"
+  },
+  "name": "thoughtsup",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbxamora/ThoughtsUp.git"
+  },
+  "keywords": [],
+  "author": "Jorge Zamora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbxamora/ThoughtsUp/issues"
+  },
+  "homepage": "https://github.com/jbxamora/ThoughtsUp#readme"
+}
